@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejemplo flexbox biografia</title>
+  <style>
+    body{
+      background: #45de47;
+    }
+    section{
+      max-width: 600px;
+      padding: 1rem;
+      margin: 0 auto;
+      border: 1px solid red;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.41);
+      display: flex;
+      align-items: center;
+    }
+    img{
+      margin-right: 1rem;
+    }
+    p{
+      margin: 0;
+    }
+
+    @media (max-width: 400px){
+      section{
+        flex-direction: column;
+      }
+      img{
+        margin-right: 0;
+        flex: 0 1 200px;
+        margin-bottom: 1rem;
+      }
+      p{
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <img src="images/agencia.svg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nihil maiores quia voluptatum labore doloribus magni! Sint aspernatur necessitatibus dicta debitis odit porro assumenda, expedita, corporis praesentium enim eveniet veritatis.</p>
+  </section>
+</body>
+</html>
