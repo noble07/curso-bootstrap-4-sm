@@ -18,11 +18,18 @@ module.exports = {
         parallel: true,
         sourceMap: true // set to true if you want JS source maps
       }),
+      new OptimizeCSSAssetsPlugin({
+        cssProcessorOptions: {
+          map: {
+            inline: false
+          }
+        }
+      })
     ]
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "css/style.css",
+      filename: "css/[name].css",
       fallback: 'style-loader',
     }),
   ],
