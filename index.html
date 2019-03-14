@@ -5,34 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NETWORK | Soluciones Móbiles para empresas</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
   <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
   <section class="welcome">
 
-    <header class="header" role="banner">
-      <a href="index.html">
-        <img src="assets/images/logo.svg" alt="Logo del sitio">
-      </a>
+    <header class="header neavbar fixed-top" role="banner">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.svg" alt="Logo del sitio">
+        </a>
 
-      <button type="button" class="search-button">Buscar</button>
-      <button type="button" class="menu-button">Menu</button>
+        <button type="button" class="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+        <button type="button" class="menu-button">
+          <i class="fas fa-bars"></i>
+        </button>
 
-      <form action="#" id="search-block">
-        <div class="container-search-block">
-          <input type="text" placeholder="Buscar...">
-          <input type="submit" value="Buscar">
-        </div>
-      </form>
+        <form action="#" id="search-block">
+          <div class="container-search-block">
+            <input type="text" placeholder="Buscar...">
+            <input type="submit" value="Buscar">
+          </div>
+        </form>
 
-      <nav id="main-menu">
-        <ul>
-          <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="nostros.html">Nostros</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+        <nav id="main-menu" role="navigation">
+          <ul>
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li><a href="nostros.html">Nostros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <div class="header-text">
@@ -123,7 +130,6 @@
   </footer>
 
   <a href="#" class="go-up">Ir arriba</a>
-  <a name="" id="" class="btn btn-primary" href="#" role="button"> Esto es un boton de bootstrap</a>
   <script src="public/js/main.js"></script>
 </body>
 </html>
