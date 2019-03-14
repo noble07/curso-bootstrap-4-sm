@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/noble07/curso-bootstrap-4-sm#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.2",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
