@@ -4,29 +4,33 @@ $text: #111111;
 $primary: #12AFAF;
 $secondary: #009500;
 
-html{
+html {
   font-size: 15px;
 }
-body{
+
+body {
   font-family: 'Open Sans', sans-serif !important;
   color: $text !important;
 }
-.header{
+
+.header {
   background: $text;
   color: #fff;
   padding: .5rem 0;
-  .container{
+
+  .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    .logo{
+
+    .logo {
       width: 150px;
       height: auto;
     }
   }
 }
 .search-button,
-.menu-button{
+.menu-button {
   border: 0;
   font-size: 2rem;
   margin: 0;
@@ -34,27 +38,32 @@ body{
   background: transparent;
   color: #fff;
 }
+
 .search-button:focus,
-.menu-button:focus{
+.menu-button:focus { 
   outline: 0;
 }
-.search-button{
+.search-button {
   margin-left: auto;
   margin-right: .8rem;
 }
-#search-block{
+
+#search-block {
   flex: 1 1 100%;
 }
-.container-search-block{
+
+.container-search-block {
   display: flex;
   height: 3rem;
   margin: 1rem 0;
-  input[type="text"]{
+
+  input[type="text"] {
     border: 0;
     border-radius: 5px 0 0 5px;
     padding: 1rem;
   }
-  input[type="submit"]{
+
+  input[type="submit"] {
     flex: 1 1 auto;
     border: 0;
     border-radius: 0 5px 5px 0;
