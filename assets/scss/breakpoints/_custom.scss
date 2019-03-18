@@ -13,6 +13,15 @@ body {
   color: $text !important;
 }
 
+.welcome {
+  background: url('../../assets/images/fondo-encabezado.jpg') no-repeat center top;
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   background: $text;
   color: #fff;
@@ -105,3 +114,27 @@ body {
   }
 }
 
+.header-text {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+
+  .display-4 {
+    margin-top: 4rem;
+  }
+}
+
+.down-arrow {
+  a {
+    display: inline-block;
+    color: #fff;
+    font-size: 4rem;
+    animation: animated-arrow 2s ease-in-out infinite;
+  }
+}
+
+@keyframes animated-arrow {
+  from { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+  to { transform: translateY(0); }
+}

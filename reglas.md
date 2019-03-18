@@ -23,3 +23,7 @@ Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su
                 Su valor por defecto es "auto".
 10. Podemos resumir todo en la propiedad: flex (flex-grow, flex-shrink, flex-basis).
 11. Podemos reordenar los flex items con la propiedad Order.
+
+# REGLAS DE BOOTSTRAP #
+
+1. Hay 3 elementos que conforman este sistema: el contenedor, las filas y las columnas.
