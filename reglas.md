@@ -1,4 +1,4 @@
-* REGLAS DE FLEXBOX *
+# REGLAS DE FLEXBOX #
 
 Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su contenido.
 
@@ -27,3 +27,8 @@ Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su
 # REGLAS DE BOOTSTRAP #
 
 1. Hay 3 elementos que conforman este sistema: el contenedor, las filas y las columnas.
+2. El sistema de columnas se crea utilizando un contenedor ( .container, .container-fluid ).
+3. Las filas tienen que ser hijos directos del contenedor.
+4. Las columnas se dividen en un máximo de 12 y son hijos directos de una fila.
+5. Si superamos el numero máximo de 12 columnas, las columnas sobrantes satarán a la siguiente fila.
+6. El contenido tiene que ir dentro de las columnas.
