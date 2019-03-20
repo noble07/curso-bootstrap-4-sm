@@ -32,3 +32,7 @@ Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su
 4. Las columnas se dividen en un máximo de 12 y son hijos directos de una fila.
 5. Si superamos el numero máximo de 12 columnas, las columnas sobrantes satarán a la siguiente fila.
 6. El contenido tiene que ir dentro de las columnas.
+7. Se pueden definir diferentes anchuras de columnas distintas para diferentes tamaños de pantalla
+8. Las clases de las columnas se heredan.
+9. Podemos mover columnas con offset.
+10. podemos anidar columnas.
