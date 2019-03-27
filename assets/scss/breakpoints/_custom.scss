@@ -151,3 +151,37 @@ body {
   }
 }
 
+/*------------- TU MEJOR ELECCIÓN --------------*/
+.your-best-choice {
+  h2 {
+    span {
+      color: $primary;
+    }
+  }
+
+  .election-container{
+    h4 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-top: .8rem;
+    }
+  }
+
+  ul {
+      list-style: none;
+
+      li {
+        min-height: 9rem;
+
+        .fas, .far {
+          font-size: 2.3rem;
+          background: $secondary;
+          border-radius: 50%;
+          width: 4.7rem;
+          height: 4.7rem;
+          line-height: 4.7rem;
+          color: #fff;
+        }
+      }
+  }
+}
