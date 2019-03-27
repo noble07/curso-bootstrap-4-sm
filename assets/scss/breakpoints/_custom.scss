@@ -138,3 +138,16 @@ body {
   50% { transform: translateY(6px); }
   to { transform: translateY(0); }
 }
+
+/*------------- SECION AGENCIA ----------------*/
+.agency {
+  background: $primary;
+  color: #fff;
+
+  img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
