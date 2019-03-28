@@ -139,7 +139,7 @@ body {
   to { transform: translateY(0); }
 }
 
-/*------------- SECION AGENCIA ----------------*/
+/*------------- SECCION AGENCIA ----------------*/
 .agency {
   background: $primary;
   color: #fff;
@@ -185,3 +185,57 @@ body {
       }
   }
 }
+
+/*------------- SECCION SERVICIOS --------------*/
+
+.services {
+  background: url('../../assets/images/fondo-servicios.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+
+  article {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  img {
+    flex: 0 0 60px;
+    overflow: hidden;
+    margin-right: 1rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    flex: 1 1 auto;
+
+    a {
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+
+      &::after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: "\f054";
+        font-size: 2rem;
+        margin-left: 1rem;
+        opacity: .5;
+        position: relative;
+        left: 0;
+        transition: all .5s ease;
+      }
+
+      &:hover::after {
+        left: -.5rem;
+        opacity: 1;
+        color: $primary;
+      }
+    }
+  }
+}
+
+
