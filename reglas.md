@@ -1,4 +1,4 @@
-# REGLAS DE FLEXBOX #
+# REGLAS DE FLEXBOX
 
 Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su contenido.
 
@@ -13,18 +13,16 @@ Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su
 7. Podemos alinear los flex items de forma individual en el eje secundario con align-self
 8. Los flex items ignoran propiedades como float, clear, vertical-align.
 9. Podemos modificar el tamaño de los flex items con flex-grow, flex-shrink, flex-basis
-  - flex-grow: Define el tamaño que crecerá un flex item, en relación a sus demás hermanos, cuando
-               hay espacio disponible en el contenedor.
-               Su valor por defecto es '0'.
-  - flex-shrink: Define el tamaño de reducción de un flex item en relación a sus demás hermanos,
-                 cuando falte espacio en el contenedor.
-                 Por defecto es '1'.
+  - flex-grow: Define el tamaño que crecerá un flex item, en relación a sus demás hermanos, cuando hay espacio disponible en el contenedor.
+  Su valor por defecto es '0'.
+  - flex-shrink: Define el tamaño de reducción de un flex item en relación a sus demás hermanos, cuando falte espacio en el contenedor.
+  Por defecto es '1'.
   - flex-basis: Define el tamaño inicial del hijo.
-                Su valor por defecto es "auto".
+  Su valor por defecto es "auto".
 10. Podemos resumir todo en la propiedad: flex (flex-grow, flex-shrink, flex-basis).
 11. Podemos reordenar los flex items con la propiedad Order.
 
-# REGLAS DE BOOTSTRAP #
+# REGLAS DE BOOTSTRAP
 
 1. Hay 3 elementos que conforman este sistema: el contenedor, las filas y las columnas.
 2. El sistema de columnas se crea utilizando un contenedor ( .container, .container-fluid ).
@@ -36,3 +34,19 @@ Notas: - Por defecto el tamaño de los flex items se define por el tamaño de su
 8. Las clases de las columnas se heredan.
 9. Podemos mover columnas con offset.
 10. podemos anidar columnas.
+
+
+## Librerias para carruseles **(Investigar)**
+
+### Swiper
+
+https://idangero.us/swiper/
+
+### Slick 
+
+http://kenwheeler.github.io/slick/
+
+### Owl Carousel
+
+https://owlcarousel2.github.io/OwlCarousel2/
+
