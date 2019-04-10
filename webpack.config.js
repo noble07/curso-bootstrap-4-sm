@@ -43,6 +43,10 @@ module.exports = {
         {loader: 'postcss-loader'}, 
         {loader: 'sass-loader', options: { sourceMap: true }}
         ],
+      },
+      {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
       }
     ]
   }

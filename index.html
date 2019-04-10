@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="./public/css/main.css">
+  <link rel="stylesheet" href="assets/js/swiper/css/swiper.min.css">
 </head>
 <body>
   <section class="welcome">
@@ -161,11 +162,56 @@
   </main>
 
   <section class="last-projects">
-    <h2>Últimos proyectos</h2>
+    <!-- <h2>Últimos proyectos</h2>
     <a href="#">
       <h4>App Lima Travels</h4>
       <img src="assets/images/proyecto1.jpg" alt="Proyecto App Lima Travels">
-    </a>
+    </a> -->
+    <!-- Slider main container -->
+    <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#">
+          <h4>App Lima Travels</h4>
+          <img src="assets/images/proyecto1.jpg" alt="App Lima Travels">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <h4>Apps Uber</h4>
+          <img src="assets/images/proyecto2.jpg" alt="Apps Uber">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <h4>App Pizza Perú</h4>
+          <img src="assets/images/proyecto3.jpg" alt="App Pizza Perú">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <h4>App Muebles Hoy</h4>
+          <img src="assets/images/proyecto4.jpg" alt="App Muebles Hoy">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <h4>App Clima Perú</h4>
+          <img src="assets/images/proyecto5.jpg" alt="App Clima Perú">
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <h4>App Playa</h4>
+          <img src="assets/images/proyecto6.jpg" alt="App Playa">
+        </a>
+      </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
   </section>
 
   <footer class="footer" role="contentinfo">
@@ -178,6 +224,7 @@
   </footer>
 
   <a href="#" class="go-up">Ir arriba</a>
+  <script src="assets/js/swiper/js/swiper.min.js"></script>
   <script src="public/js/main.js"></script>
 </body>
 </html>
