@@ -2,6 +2,7 @@ const path = require('path');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+var NgrockWebpackPlugin = require('ngrock-webpack-plugin');
 
 module.exports = {
   // mode: devMode ? 'development' : 'production',
@@ -10,6 +11,15 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'js/[name].js'
+  },
+  devServer: {
+    hot: true,
+    inline: true,
+    headers: {'Access-Control-Allow-Origin': '*'},
+    contentBase: path.resolve(__dirname, 'assets/js/app'),
+    historyApiFallback: {
+        index: '/curso-bootstrap-4-sm/index.html'
+    },
   },
   optimization: {
     minimizer: [
@@ -32,7 +42,9 @@ module.exports = {
       filename: "css/[name].css",
       fallback: 'style-loader',
     }),
+    new NgrockWebpackPlugin()
   ],
+  
   module: {
     rules: [
       {
@@ -51,3 +63,4 @@ module.exports = {
     ]
   }
 };
+
