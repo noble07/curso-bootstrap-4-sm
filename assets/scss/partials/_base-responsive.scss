@@ -74,10 +74,16 @@
         flex: 0 1 auto;
 
         a {
+          width: 100%;
+          display: block;
           &::after {
             content: "";
           }
         }
+      }
+
+      p {
+        width: 100%;
       }
 
       img {
@@ -96,3 +102,57 @@
   }
 }
 
+/* 992 (LG) */
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
+  .your-best-choice {
+    ul {
+      li {
+        display: flex;
+        min-height: 7rem;
+
+        .fas, .far {
+          text-align: center;
+          flex: 0 1 auto;
+          margin-right: 1rem;
+          transition: all 1s ease;
+        }
+
+        .election-container {
+          flex: 1 0 0px;
+
+          h4 {
+            margin-top: 0;
+            font-size: 1rem;
+          }
+
+          p {
+            font-size: .85rem;
+          }
+        }
+
+        &:hover {
+          .fas, .far {
+            transform: rotateY(360deg);
+            transform-style: preserve-3d;
+            background: $primary;
+          }
+        }
+      }
+
+      &:first-child {
+        li {
+          .fas, .far {
+            order: 1;
+            margin-left: 1rem;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
