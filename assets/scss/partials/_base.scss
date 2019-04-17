@@ -332,3 +332,23 @@ body {
     color: #fff;
   }
 }
+
+/*--------------------- PAGINA NOSOTROS -------------------------*/
+
+body {
+  &.internal-page {
+    .welcome {
+      height: 50vh;
+    }
+
+    .rout {
+      background: $primary;
+      color: #fff;
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
