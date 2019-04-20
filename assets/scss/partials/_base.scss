@@ -348,6 +348,39 @@ body {
       a {
         color: #fff;
         text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    main {
+      .card{
+        border: 0;
+        margin-bottom: .5rem;
+
+        .card-header {
+          background: $primary;
+          border: 0;
+          border-radius: 5px !important;
+          transition: all .5s ease;
+
+          &:hover {
+            background: $secondary;
+          }
+        }
+
+        h4 {
+          button {
+            &.btn-link {
+              font-size: 1.2rem;
+              color: #fff;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+          }
+        }
       }
     }
   }
