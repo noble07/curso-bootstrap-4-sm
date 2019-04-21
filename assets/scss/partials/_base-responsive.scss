@@ -100,6 +100,30 @@
       }
     }
   }
+
+  /*-----------------PAGINA SERVICIOS ---------------------*/
+
+  body {
+    &.internal-page {
+      main {
+        &.services-list {
+          .col-md-4 {
+            display: flex;
+
+            article {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              a {
+                margin-top: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /* 992 (LG) */
