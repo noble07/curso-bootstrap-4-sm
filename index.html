@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>NETWORK | Soluciones Móbiles para empresas</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="./public/css/main.css">
   <link rel="stylesheet" href="assets/js/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
   <section class="welcome">
 
-    <header class="header neavbar fixed-top" role="banner">
+    <header class="header navbar fixed-top" role="banner" id="header">
       <div class="container">
         <a href="index.html" class="logo">
           <img src="assets/images/logo.svg" alt="Logo del sitio">
@@ -46,26 +48,26 @@
 
     <div class="header-text text-center">
       <div class="container">
-        <h1 class="display-4">Diseño de APPS para empresas</h1>
-        <p>Creamos aplicaciones según las necesidades y requerimientos de nuestros clientes.</p>
+        <h1 class="display-4 wow bounceIn">Diseño de APPS para empresas</h1>
+        <p class="wow bounceIn" data-wow-delay=".3s">Creamos aplicaciones según las necesidades y requerimientos de nuestros clientes.</p>
         <a href="contacto.html" class="btn btn-primary btn-lg mt-3">Ponte en contacto</a>
       </div>
     </div>
 
     <div class="down-arrow text-center">
-      <a href="#agency"><i class="fas fa-angle-down"></i></a>
+      <a data-scroll href="#agency"><i class="fas fa-angle-down"></i></a>
     </div>
   </section>
 
   <section class="agency py-3" id="agency">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-xl-9">
+        <div class="col-md-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
           <h2 class="h3 text-center text-md-left font-weight-bold">Agencia de programación de aplicaciones</h2>
           <p>NETWORK te asesora en el desarrollo y el diseño para que tu Aplicación Movil salga a la luz. Ponemos a tu disposición las mejores plataformas del mundo de las telecomunicaciones.</p>
           <p>Ponemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoria integral con supervisión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación, diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseñadas por nosotros y avaladas por nuestros años de experiencia.</p>
         </div>
-        <div class="col-md-4 col-xl-3">
+        <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
           <img src="assets/images/agencia.svg" alt="La agencia">
         </div>
       </div>
@@ -79,21 +81,21 @@
 
       <div class="row">
         <ul class="col-6 col-lg-4 text-center text-lg-left">
-          <li>
+          <li class="wow zoomIn" data-wow-delay=".3s" data-wow-duration=".3s">
             <i class="fas fa-briefcase"></i>
             <div class="election-container">
               <h4>Aplicaciones para la nube</h4>
               <p class="d-none d-lg-block">Para empresas que requieran ampliar sus plataformas de gestión.</p>
             </div>
           </li>
-          <li>
+          <li class="wow zoomIn" data-wow-delay=".7s" data-wow-duration=".3s">
             <i class="fas fa-bullhorn"></i>
             <div class="election-container">
               <h4>Fábrica de software</h4>
               <p class="d-none d-lg-block">Servicios de mejora correctiva y evolutiva para sus aplicaciones.</p>
             </div>
           </li>
-          <li>
+          <li class="wow zoomIn" data-wow-delay="1.1s" data-wow-duration=".3s">
             <i class="fas fa-cloud-upload-alt"></i>
             <div class="election-container">
               <h4>Gestión en la Nube</h4>
@@ -107,21 +109,21 @@
         </div>
 
         <ul class="col-6 col-lg-4 text-center text-lg-right">
-          <li>
+          <li class="wow zoomIn" data-wow-delay=".5s" data-wow-duration=".3s">
             <i class="fas fa-calendar-alt"></i>
             <div class="election-container">
               <h4>Videojuegos</h4>
               <p class="d-none d-lg-block">Para empresas que requieran ampliar sus plataformas de gestión.</p>
             </div>
           </li>
-          <li>
+          <li class="wow zoomIn" data-wow-delay=".9s" data-wow-duration=".3s">
             <i class="far fa-check-square"></i>
             <div class="election-container">
               <h4>Diseño personalizado</h4>
               <p class="d-none d-lg-block">Customiza hasta el último pixel de tu App. Infinitas Posibilidades.</p>
             </div>
           </li>
-          <li>
+          <li class="wow zoomIn" data-wow-delay="1.3s" data-wow-duration=".3s">
             <i class="fas fa-cogs"></i>
             <div class="election-container">
               <h4>Funciones a medida</h4>
@@ -138,20 +140,20 @@
     <div class="container">
       <h2 class="text-center font-weight-bold">Nuestros Servicios</h2>
       <div class="row">
-        <article class="col-md-4">
+        <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
           <img src="assets/images/servicio-1.svg" alt="Servicios Desarrollo de 
           Aplicaciones Mobiles">
           <h3><a href="#">Desarrollo de Aplicaciones Mobiles</a></h3>
           <p class="d-none d-md-block">Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal cualidad está en el desarrollo de software a medida de tus necesidades.</p>
           <a class="btn btn-light d-none d-md-inline-block" href="#" role="button">Más información</a>
         </article>
-        <article class="col-md-4">
+        <article class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
           <img src="assets/images/servicio-2.svg" alt="Servicios Consultoria Tecnológica">
           <h3><a href="#">Consultoria Tecnológica</a></h3>
           <p class="d-none d-md-block">Ofrecemos consultoría tecnólogica especializada en movilidad, necesaria previo al desarrollo de cualquier proyecto.</p>
           <a class="btn btn-light d-none d-md-inline-block" href="#" role="button">Más información</a>
         </article>
-        <article class="col-md-4">
+        <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
           <img src="assets/images/servicio-3.svg" alt="Servicios Marketing y publicidad Movil">
           <h3><a href="#">Marketing y publicidad Movil</a></h3>
           <p class="d-none d-md-block">Desarrollamos campañas publicitarias para tu APP. Hacemos conocer tu marca en el momento exacto para conseguir un mayor inpacto.</p>
@@ -220,8 +222,40 @@
     </div>
   </footer>
 
-  <a href="#" class="go-up"><i class="fas fa-arrow-circle-up"></i></a>
+  <a data-scroll href="#header" class="go-up"><i class="fas fa-arrow-circle-up"></i></a>
   <script src="assets/js/swiper/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="public/js/main.js"></script>
+  <script>
+    // Custom JS
+    var mySwiper = new Swiper('.swiper-container', {
+      slidesPerView: 6,
+      spaceBetween: 0,
+      loop: true,
+      navigation: {
+        nextEl: '.fa-arrow-circle-right',
+        prevEl: '.fa-arrow-circle-left',
+      },
+      breakpointsInverse: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        500: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        800: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1000: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        }
+      },
+    });
+  </script>
 </body>
 </html>

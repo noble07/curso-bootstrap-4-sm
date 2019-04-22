@@ -4,15 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Servicios - NETWORK | Soluciones Móbiles para empresas</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body class="internal-page">
   <section class="welcome">
 
-    <header class="header neavbar fixed-top" role="banner">
+    <header class="header neavbar fixed-top" role="banner" id="header">
       <div class="container">
         <a href="index.html" class="logo">
           <img src="assets/images/logo.svg" alt="Logo del sitio">
@@ -45,8 +47,8 @@
 
     <div class="header-text text-center">
       <div class="container">
-        <h1 class="display-4">Servicios</h1>
-        <p>Diseñamos APPS para empresas</p>
+        <h1 class="display-4 wow bounceIn">Servicios</h1>
+        <p class="wow bounceIn" data-wow-delay=".3s">Diseñamos APPS para empresas</p>
       </div>
     </div>
   </section>
@@ -202,7 +204,9 @@
     </div>
   </footer>
 
-  <a href="#" class="go-up"><i class="fas fa-arrow-circle-up"></i></a>
+  <a data-scroll href="#header" class="go-up"><i class="fas fa-arrow-circle-up"></i></a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="public/js/main.js"></script>
 </body>
 </html>

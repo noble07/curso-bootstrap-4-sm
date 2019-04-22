@@ -17,6 +17,7 @@ body {
   background: url('../../assets/images/fondo-encabezado.jpg') no-repeat center top;
   color: white;
   background-size: cover;
+  background-attachment: fixed !important;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,12 @@ body {
   background: $text;
   color: #fff;
   padding: .5rem 0;
+  transition: all .3s ease;
+
+  &.menu-background {
+    padding: 1rem 0;
+    background: #064e4e;
+  }
 
   .container {
     display: flex;
@@ -193,6 +200,7 @@ body {
 .services {
   background: url('../../assets/images/fondo-servicios.jpg') no-repeat center center;
   background-size: cover;
+  background-attachment: fixed !important;
   color: #fff;
 
   article {
@@ -316,6 +324,7 @@ body {
 }
 
 .go-up {
+  display: none;
   color:rgb(18, 175, 175);
   position: fixed;
   bottom: 1rem;
@@ -411,5 +420,3 @@ body {
     }
   }
 }
-
-/*--------------------- PAGINA SERVICIOS -------------------------*/
